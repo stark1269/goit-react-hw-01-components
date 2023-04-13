@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-};
-
 export const Title = styled.h2`
 font-size: 32px;
 font-weight: 700;
@@ -37,3 +33,7 @@ width: calc(100% / 5);
 color: ${p => p.theme.colors.white};
 background-color: ${item => getRandomHexColor()};
 `;
+
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+};
