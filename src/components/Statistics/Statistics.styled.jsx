@@ -34,6 +34,6 @@ justify-content: center;
 align-items: center;
 gap: 12px;
 width: calc(100% / 5);
-color: ${p => p.theme.colors.grey};
+color: ${p => p.theme.colors.white};
 background-color: ${item => getRandomHexColor()};
 `;
